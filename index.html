@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shevkun Portfolio</title>
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="libs/swiper-bundle.min.js" defer></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
+    
+    <script src="js/app.js" defer></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper-content">
+
+            <!-------------------- HEADER WITH PARALLAX -------------------->
+            <header class="main-header" id="home">
+                <div class="bx bx-menu" id="menu-icon"></div>
+
+                <!-- Navigation bar -->
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>      
+                    <span class="active-nav"></span>            
+                </nav>
+
+                <!-- Parallax effect header -->
+                <div class="layers">
+                    <div class="layers__header">
+                        <div class="layers__caption">Hello, I'm</div>
+                        <div class="layers__title">Anastasiia Shevkun</div>
+                        <span class="multitext"></span>
+                    </div>
+
+                    <!-- Button with CV -->
+                    <div class="btn-box">
+                        <a href="cv/anastasiia-shevkun-cv-2023.pdf" target="_blank" class="btn">My CV</a>
+                    </div>
+
+                    <!-- Button GitHub -->
+                    <div class="btn-box">
+                        <a href="https://github.com/ashevkun" target="_blank" class="btn">
+                            <i class="card-icon bx bxl-github"></i>
+                        </a>
+                    </div>
+                    
+                    <!-- Parallax effect layers -->
+                    <div class="layer layers__base" style="background-image: url(img/blue-bg.jpg);"></div>
+                    <div class="layer layers__middle" style="background-image: url(img/glow.png);"></div>
+                    <div class="layer layers__front" style="background-image: url(img/photo.png);"></div>
+                </div>
+            </header>
+        
+            <!-------------------- ABOUT SECTION -------------------->
+            <section class="about" style="background-image: url(img/about-bg.jpg);" id="about">
+                <div class="about__content" >
+                    <h2 class="about__header">About</h2>
+                    <p class="about__paragraph">
+                        Hello! I'm Anastasiia, a young professional with 4+ years of experience teaching languages at universities and a second-year Machine Learning and Data Engineering student.
+                    </p>
+                    <p class="about__paragraph">
+                        My work is focused around teaching students foreign languages, in particular English and Ukrainian, as well as communication strategies and cultural aspects. I've always had a strong interest in languages and educational technology, which I'm happy to share with enthusiastic learners.
+                    </p>
+                    <p class="about__paragraph">
+                        Now I discovered another passion for myself – programming languages. This amazing uncharted path led me to explore the field of Machine Learning. I understand the pivotal role of technology and sustainable development in today's world, and I hope to contribute to the most important areas of public life, using the power of acquired experience and skills.
+                    </p>
+                </div>
+            </section>
+
+            <!-------------------- EDUCATION SECTION -------------------->
+            <section class="education" style="background-image: url(img/education-bg.jpg);" id="education">
+                <div class="content">
+                    <h2 class="heading">My Journey</h2>
+                    <div class="education-row">
+
+                        <!-- Higher education -->
+                        <div class="education-columm">
+                            <h3 class="title">Education</h3>
+                            <div class="education-box">
+                                <div class="education-content">
+                                    <div class="cont">
+                                        <div class="year">
+                                            <i class="bx bx-calendar"></i>
+                                            <p>Sep 2022 - Present</p>
+                                        </div>
+                                        <h3>Bachelor's Degree - Lapland UAS</h3>
+                                        <p>Study programme: Bachelor of Engineering, Machine Learning and Data Engineering. 
+                                            I'm currently in my 2nd year of studies.</p>
+                                    </div>
+                                </div>
+
+                                <div class="education-content">
+                                    <div class="cont">
+                                        <div class="year">
+                                            <i class="bx bx-calendar"></i>
+                                            <p>Sep 2016 - Jan 2018</p>
+                                        </div>
+                                        <h3>Master's Degree - Zaporizhzhia National University (ZNU)</h3>
+                                        <p>Professional qualification: Philologist, Translator of
+                                            English Language, Translator of German Language.</p>
+                                    </div>
+                                </div>
+
+                                <div class="education-content">
+                                    <div class="cont">
+                                        <div class="year">
+                                            <i class="bx bx-calendar"></i>
+                                            <p>Sep 2012 - Jul 2016</p>
+                                        </div>
+                                        <h3>Bachelor's Degree - Horlivka Institute for Foreign Languages
+                                            of State HEE "Donbas State Pedagogical
+                                            University"</h3>
+                                        <p>Obtained qualification of teacher of the
+                                            English Language and World Literature.
+                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Working experience -->
+                        <div class="education-columm">
+                            <h3 class="title">Experience</h3>
+                            <div class="education-box">
+                                <div class="education-content">
+                                    <div class="cont">
+                                        <div class="year">
+                                            <i class="bx bx-calendar"></i>
+                                            <p>Sep 2022 - Present</p>
+                                        </div>
+                                        <h3>Part-Time Teacher - University of Lapland</h3>
+                                        <p>Teaching "English Activation Course" and "Ukrainian
+                                            1", "Ukrainian 2" courses.</p>
+                                    </div>
+                                </div>
+
+                                <div class="education-content">
+                                    <div class="cont">
+                                        <div class="year">
+                                            <i class="bx bx-calendar"></i>
+                                            <p>Jan 2022 - Feb 2022</p>
+                                        </div>
+                                        <h3>Intern (Front-End) - "GenovaWebArt"</h3>
+                                        <p>Learned HTML, CSS, and JavaScript to build the client
+                                            side of a website.</p>
+                                    </div>
+                                </div>
+
+                                <div class="education-content">
+                                    <div class="cont">
+                                        <div class="year">
+                                            <i class="bx bx-calendar"></i>
+                                            <p>Dec 2018 - Aug 2022</p>
+                                        </div>
+                                        <h3>University Teacher - Zaporizhzhia State Medical University
+                                            (ZSMU)</h3>
+                                        <p>Conducted classes for both Ukrainian and Foreign
+                                            students.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-------------------- SKILLS SECTION -------------------->
+            <section class="skills" style="background-image: url(img/education-bg.jpg);" id="skills">
+                <div class="content">
+                    <h2 class="heading">My Skills</h2>
+
+                    <!-- Coding skills -->
+                    <div class="skills-row">
+                        <div class="skills-column">
+                            <h3 class="title">Technical Skills</h3>
+
+                            <div class="skills-box">
+                                <div class="skills-content">
+                                    <div class="progress">
+                                        <h3>Web Development (HTML, CSS, JS) <span>90%</span></h3>
+                                        <div class="bar"><span></span></div>
+                                    </div>
+                                    <div class="progress">
+                                        <h3>Python <span>85%</span></h3>
+                                        <div class="bar"><span></span></div>
+                                    </div>
+                                    <div class="progress">
+                                        <h3>SQL <span>75%</span></h3>
+                                        <div class="bar"><span></span></div>
+                                    </div>
+                                    <div class="progress">
+                                        <h3>Data Analytics <span>85%</span></h3>
+                                        <div class="bar"><span></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Languages  -->
+
+                        <div class="skills-column">
+                            <h3 class="title">Languages</h3>
+
+                            <div class="skills-box">
+                                <div class="skills-content">
+                                    <div class="lang-container">
+                                        <div class="lang-progress" style="--i:90;">
+                                            <h3>90<span>%</span></h3>
+                                            <h4>English</h4>
+                                        </div>
+                                        <div class="lang-progress" style="--i:100;">
+                                            <h3>100<span>%</span></h3>
+                                            <h4>Ukrainian</h4>
+                                        </div>
+                                        <div class="lang-progress" style="--i:90;">
+                                            <h3>90<span>%</span></h3>
+                                            <h4>Russian</h4>
+                                        </div>
+                                        <div class="break"></div>
+                                        <div class="lang-progress" style="--i:50;">
+                                            <h3>50<span>%</span></h3>
+                                            <h4>German</h4>
+                                        </div>
+                                        <div class="lang-progress" style="--i:65;">
+                                            <h3>65<span>%</span></h3>
+                                            <h4>Polish</h4>
+                                        </div>
+                                        <div class="lang-progress less" style="--i:20;">
+                                            <h3>20<span>%</span></h3>
+                                            <h4>Finnish</h4>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                    
+            </section>
+
+            <!-------------------- PROJECTS SECTION  -------------------->
+            <section class="projects" style="background-image: url(img/education-bg.jpg);" id="projects">
+                <div class="content">
+                    <h2 class="heading">My Projects</h2>
+
+                    <div class="project mySwiper">
+                        <div class="proj-content swiper-wrapper">
+                            <div class="slide swiper-slide">
+                                <img src="img/project-group.jpg" alt="Berry Bonanza" class="image">
+                                
+                                <div class="proj-details">
+                                    <h3>"Berry Bonanza" Project</h3>
+
+                                    <a href="https://github.com/ashevkun/Berry-Bonanza-Project" target="_blank" title="Code" class="btn">
+                                        <i class="card-icon bx bxl-github"></i>
+                                    </a>
+                                    <a href="https://ashevkun.github.io/Berry-Bonanza-Project/" target="_blank" title="Web" class="btn">
+                                        <i class="card-icon bx bx-world"></i>
+                                    </a>
+                                </div>
+                               
+                                <p>The project aimed at studying and analyzing data from the <span>Natural Resources Center</span> 
+                                    and other open data (weather and precipitation data, forest data, region's data etc.). 
+                                    This was implemented through using data analytics tools and tricks to find possible 
+                                    trends and patterns related to berries harvesting in Finland.
+                                </p>
+
+                                <p>
+                                    My roles for this project were <span>Project Manager and Front-End Developer</span>. This gave me a 
+                                    valuable experience of working with <span>the real data from the real customer</span>, as well as planning, 
+                                    management and meeting the deadlines.
+                                </p>
+                            </div>
+
+                            <!-- <div class="slide swiper-slide">
+                                <img src="" alt="" class="image">
+
+                                <h3></h3>
+                                <p></p>
+
+                                <p></p>
+                            </div> -->
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-------------------- CONTACT SECTION -------------------->
+            
+            <section class="contact" style="background-image: url(img/education-bg.jpg);" id="contact">
+                <div class="content">
+                    <h2 class="heading">Get in touch</h2>
+
+                    <div class="contact-info">
+                        <div class="card">
+                            <a href="mailto:anastasiia.shevkun@gmail.com">
+                                <i class="card-icon bx bxs-envelope"></i>
+                                <p>anastasiia.shevkun@gmail.com</p>
+                            </a>
+                        </div>
+
+                        <div class="card">
+                            <a href="tel:+358408514952">
+                                <i class="card-icon bx bxs-phone"></i>
+                                <p>+358408514952</p>
+                            </a>
+                        </div>
+
+                        <div class="card">
+                            <a href="https://www.linkedin.com/in/anastasiia-shevkun-26b748237/" target="_blank">
+                                <i class="card-icon bx bxl-linkedin"></i>
+                                <p>Anastasiia Shevkun</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-------------------- FOOTER DESIGN -------------------->
+
+            <footer class="footer">
+                <div class="footer-text">
+                    <p class="copy">&copy; Anastasiia Shevkun, 2023</p>
+                </div>
+
+                <div class="footer-iconTop">
+                    <a href="#">
+                        <i class="bx bx-up-arrow-alt"></i>
+                    </a>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+</body>
+</html>
